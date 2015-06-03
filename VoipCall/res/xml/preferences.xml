@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListPreference xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="namePref"
+        android:summary="Enter account name"
+        android:title="SIP Name" />
+    <EditTextPreference
+        android:title="SIP Domain"
+        android:defaultValue=""
+        android:key="domainPref"
+        android:summary="Enter domain name" />
+    <EditTextPreference
+        android:title="SIP Password"
+        android:defaultValue=""
+        android:key="passPref"
+        android:password="true"
+        android:summary="Enter account password"/>
+
+</ListPreference>

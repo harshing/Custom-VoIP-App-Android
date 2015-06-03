@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:name="SIP Username"
+        android:defaultValue=""
+        android:key="namePref"
+        android:summary="Enter username"
+        android:title="Username" />
+    <EditTextPreference
+        android:name="Server"
+        android:defaultValue=""
+        android:key="domainPref"
+        android:summary="Server IP"
+        android:title="Domain" />
+    <EditTextPreference
+        android:name="SIP Password"
+        android:defaultValue=""
+        android:key="passPref"
+        android:password="true"
+        android:summary="Password"
+        android:title="Password" />
+
+</PreferenceScreen>

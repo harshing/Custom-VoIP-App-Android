@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_head"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".MainActivity" >
+        
+        <TextView
+            android:id="@+id/main_register_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Status" />
+        <EditText 
+            android:id="@+id/sip_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter sip address"/>
+        <Button 
+            android:id="@+id/call"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Call"/>
+        
+</LinearLayout>
